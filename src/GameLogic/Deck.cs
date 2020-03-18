@@ -67,7 +67,7 @@ namespace CardGames.GameLogic
 				//pick a random index
 				int rndIdx = rnd.Next(52 - i);
 
-				Card temp = _card[i];
+				Card temp = _cards[i];
 				_cards[i] = _cards[i + rndIdx];
 				_cards[i + rndIdx] = temp;
 			}
