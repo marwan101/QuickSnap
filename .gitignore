@@ -3,5 +3,7 @@ tmp
 *.userprefs
 out.log
 .DS_Store
-*.vs
+<<<<<<< HEAD
+=======
+>>>>>>> add-player-hit
 obj
